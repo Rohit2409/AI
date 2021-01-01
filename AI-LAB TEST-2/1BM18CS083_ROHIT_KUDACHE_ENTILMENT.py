@@ -81,29 +81,6 @@ def _eval(i, val1, val2):
     return val2 or val1
    
 #Test 1
-print("Test one Q => R") 
-input_rules()
-ans = entailment()
-if ans:
-    print("The Knowledge Base entails query")
-else:
-    print("The Knowledge Base does not entail query")
-#Test 2
-print()
-print('*'*30)
-print()
-print("Test two P => ~ Q") 
-input_rules()
-ans = entailment()
-if ans:
-    print("The Knowledge Base entails query")
-else:
-    print("The Knowledge Base does not entail query")
-#Test 3
-print()
-print('*'*30)
-print()
-print("Test Three R v Q") 
 input_rules()
 ans = entailment()
 if ans:
